@@ -1,0 +1,478 @@
+/* --------------------------> For Media Query <-------------------------- */
+
+/* Mobile Small*/
+@media only screen and (max-width: 374px) {
+}
+
+/* ---------------- Mobile Medium ---------------- */
+@media (min-width: 375px) and (max-width: 424px) {
+  .landingArea .navbar {
+    min-height: 9vh;
+    padding: 0% 4% !important;
+  }
+  .sidebarIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 1.6rem;
+    color: var(--textColorLight);
+    margin-bottom: 0px;
+  }
+  .logoArea :nth-child(1) {
+    width: 115px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 3.5px 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .landingArea .bannerArea {
+    height: 120vh;
+    display: flex;
+    align-items: center;
+  }
+  .bannerArea .sidePortfolioImage {
+    display: none;
+  }
+  .bnrContainer {
+    max-height: 38%;
+    margin: 11% 8vw 0% 8vw;
+  }
+  .bnrContentArea {
+    height: 100% !important;
+    /* background-color: var(--mainColor04); */
+  }
+  .bnrContent {
+    max-height: 82%;
+    padding: 4vw 5vw !important;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.78rem;
+    /* background-color: darkcyan; */
+  }
+  .bnrContent :nth-child(2) {
+    font-size: 3.2em;
+    font-weight: 700;
+  }
+  .bnrContent :nth-child(3) {
+    text-align: center;
+  }
+  .bnrContent :nth-child(4) {
+    width: 200px;
+    text-align: left;
+    /* background-color: darkgoldenrod; */
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 18px;
+    font-size: 1.6em;
+  }
+  .bnrImage {
+    display: none;
+  }
+
+  .bnrSocialLinks {
+    height: 15%;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 0px !important;
+    /* background-color: darkgreen; */
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.2rem;
+  }
+
+  .bnrSepImage {
+    height: 42%;
+    /* border: 2px solid lightcoral; */
+    margin: 0px 8vw !important;
+    display: block;
+  }
+  .bnrSepImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ---------------- Mobile Large ---------------- */
+@media (min-width: 425px) and (max-width: 500px) {
+  .landingArea .navbar {
+    min-height: 9vh;
+    padding: 0% 4% !important;
+    /* background-color: aquamarine; */
+  }
+  .sidebarIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 1.7rem;
+    color: var(--textColorLight);
+    margin-bottom: 0px;
+  }
+  .logoArea :nth-child(1) {
+    width: 120px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 4px 11px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .landingArea .bannerArea {
+    height: 130vh;
+    display: flex;
+    align-items: center;
+  }
+  .bannerArea .sidePortfolioImage {
+    display: none;
+  }
+  .bnrContainer {
+    max-height: 38%;
+    margin: 11% 8vw 0% 8vw;
+  }
+  .bnrContentArea {
+    height: 100% !important;
+    /* background-color: var(--mainColor04); */
+  }
+  .bnrContent {
+    max-height: 82%;
+    padding: 2vw 5vw !important;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.82rem;
+    /* background-color: darkcyan; */
+  }
+  .bnrContent :nth-child(2) {
+    font-size: 3.4em;
+    font-weight: 700;
+  }
+  .bnrContent :nth-child(3) {
+    text-align: center;
+  }
+  .bnrContent :nth-child(4) {
+    width: 206px;
+    text-align: left;
+    /* background-color: darkgoldenrod; */
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 18px;
+    font-size: 1.65em;
+  }
+  .bnrImage {
+    display: none;
+  }
+
+  .bnrSocialLinks {
+    height: 15%;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 0px !important;
+    /* background-color: darkgreen; */
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.4rem;
+  }
+
+  .bnrSepImage {
+    height: 44%;
+    /* border: 2px solid lightcoral; */
+    margin: 0px 8vw !important;
+    display: block;
+  }
+  .bnrSepImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ---------------- Small Tablet & Landscape Mobile ---------------- */
+@media (min-width: 501px) and (max-width: 575px) {
+  .landingArea .navbar {
+    min-height: 9vh;
+    padding: 0% 4% !important;
+    /* background-color: aquamarine; */
+  }
+  .sidebarIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 1.7rem;
+    color: var(--textColorLight);
+    margin-bottom: 0px;
+  }
+  .logoArea :nth-child(1) {
+    width: 120px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 4.5px 12px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .landingArea .bannerArea {
+    height: 140vh;
+    display: flex;
+    align-items: center;
+  }
+  .bannerArea .sidePortfolioImage {
+    display: none;
+  }
+  .bnrContainer {
+    max-height: 38%;
+    margin: 11% 9vw 0% 9vw;
+  }
+  .bnrContentArea {
+    height: 100% !important;
+    /* background-color: var(--mainColor04); */
+  }
+  .bnrContent {
+    max-height: 82%;
+    padding: 2vw 5vw !important;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.87rem;
+    /* background-color: darkcyan; */
+  }
+  .bnrContent :nth-child(3) {
+    text-align: center;
+  }
+  .bnrContent :nth-child(4) {
+    width: 216px;
+    text-align: left;
+    /* background-color: darkgoldenrod; */
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 18px;
+    font-size: 1.7em;
+  }
+  .bnrImage {
+    display: none;
+  }
+
+  .bnrSocialLinks {
+    height: 15%;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 0px !important;
+    /* background-color: darkgreen; */
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.4rem;
+  }
+
+  .bnrSepImage {
+    height: 44%;
+    /* border: 2px solid lightcoral; */
+    margin: 0px 8vw !important;
+    display: block;
+  }
+  .bnrSepImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ---------------- Tablet ---------------- */
+@media (min-width: 576px) and (max-width: 767px) {
+  .landingArea .navbar {
+    min-height: 9vh;
+    /* background-color: aquamarine; */
+  }
+  .sidebarIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 1.8rem;
+    color: var(--textColorLight);
+    margin-bottom: 0px;
+  }
+  .landingArea .navbar {
+    padding: 0% 4% !important;
+  }
+  .logoArea :nth-child(1) {
+    width: 125px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 5px 13px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .landingArea .bannerArea {
+    height: 140vh;
+    display: flex;
+    align-items: center;
+  }
+  .bannerArea .sidePortfolioImage {
+    display: none;
+  }
+  .bnrContainer {
+    max-height: 40%;
+    margin-top: 12%;
+  }
+  .bnrContentArea {
+    height: 100% !important;
+    /* background-color: var(--mainColor04); */
+  }
+  .bnrContent {
+    max-height: 82%;
+    padding: 2vw 4vw !important;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+    /* background-color: darkcyan; */
+  }
+  .bnrContent :nth-child(3) {
+    text-align: center;
+  }
+  .bnrContent :nth-child(4) {
+    width: 240px;
+    text-align: left;
+    /* background-color: darkgoldenrod; */
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 18px;
+    font-size: 1.7em;
+  }
+  .bnrImage {
+    display: none;
+  }
+
+  .bnrSocialLinks {
+    height: 15%;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 0px !important;
+    /* background-color: darkgreen; */
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.4rem;
+  }
+
+  .bnrSepImage {
+    height: 45%;
+    /* border: 2px solid lightcoral; */
+    margin: 0px 8vw !important;
+    display: block;
+  }
+  .bnrSepImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+/* ---------------- Laptop Small ---------------- */
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebarIcon {
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 2rem;
+    color: var(--textColorLight);
+    margin-bottom: -1.2px;
+  }
+  .landingArea .navbar {
+    padding: 0% 4% !important;
+  }
+  .logoArea :nth-child(1) {
+    width: 130px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 5px 14px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-left: 2rem;
+  }
+
+  .bannerArea .sidePortfolioImage {
+    height: 55%;
+  }
+  .bnrContent {
+    font-size: 0.9rem;
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 18px;
+    font-size: 1.7em;
+  }
+  .bnrImage {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bnrImage img {
+    width: 40vw;
+    height: 85%;
+    object-fit: cover;
+  }
+  .bnrSocialLinks {
+    gap: 20px;
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.4rem;
+  }
+}
+
+/* ---------------- Laptop Medium ---------------- */
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+/* Widescreen OR Laptop Large */
+@media (min-width: 1201px) {
+  .bnrImage img {
+    width: 30vw;
+    height: 92%;
+  }
+}
+
+/* Landscape */
+/* @media(max-height: 500px) {} */
+
+/* For desktop: */
+/* @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} */
