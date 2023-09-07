@@ -2,6 +2,101 @@
 
 /* Mobile Small*/
 @media only screen and (max-width: 374px) {
+  .landingArea .navbar {
+    min-height: 9vh;
+    padding: 0% 4% !important;
+  }
+  .sidebarIcon {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .sidebarIcon i {
+    font-size: 1.6rem;
+    color: var(--textColorLight);
+    margin-bottom: -2px;
+  }
+  .logoArea :nth-child(1) {
+    /* padding: 0px 2px; */
+    width: 100px;
+  }
+  .navigation ul li {
+    display: none;
+  }
+  .resumeBtn {
+    padding: 3px 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    border-radius: 3px;
+  }
+
+  .landingArea .bannerArea {
+    height: 110vh;
+    display: flex;
+    align-items: center;
+  }
+  .bannerArea .sidePortfolioImage {
+    display: none;
+  }
+  .bnrContainer {
+    max-height: 42%;
+    margin: 11% 8vw 0% 8vw;
+  }
+  .bnrContentArea {
+    height: 100% !important;
+    /* background-color: var(--mainColor04); */
+  }
+  .bnrContent {
+    max-height: 82%;
+    padding: 4vw 6vw !important;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.72rem;
+    /* background-color: darkcyan; */
+  }
+  .bnrContent :nth-child(2) {
+    font-size: 3.2em;
+    font-weight: 700;
+  }
+  .bnrContent :nth-child(3) {
+    text-align: center;
+  }
+  .bnrContent :nth-child(4) {
+    width: 200px;
+    text-align: left;
+    /* background-color: darkgoldenrod; */
+  }
+  .bnrContent :nth-child(5) {
+    padding: 4px 15px;
+    font-size: 1.65em;
+  }
+  .bnrImage {
+    display: none;
+  }
+
+  .bnrSocialLinks {
+    height: 15%;
+    gap: 20px;
+    justify-content: center;
+    padding: 5px 0px !important;
+    /* background-color: darkgreen; */
+  }
+  .bnrSocialLinks a i {
+    font-size: 2.2rem;
+  }
+
+  .bnrSepImage {
+    height: 40%;
+    /* border: 2px solid lightcoral; */
+    margin: 0px 8vw !important;
+    display: block;
+  }
+  .bnrSepImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* ---------------- Mobile Medium ---------------- */
@@ -18,7 +113,7 @@
   .sidebarIcon i {
     font-size: 1.6rem;
     color: var(--textColorLight);
-    margin-bottom: 0px;
+    margin-bottom: -1px;
   }
   .logoArea :nth-child(1) {
     width: 115px;
@@ -70,8 +165,8 @@
     /* background-color: darkgoldenrod; */
   }
   .bnrContent :nth-child(5) {
-    padding: 4px 18px;
-    font-size: 1.6em;
+    padding: 4px 16px;
+    font-size: 1.65em;
   }
   .bnrImage {
     display: none;
